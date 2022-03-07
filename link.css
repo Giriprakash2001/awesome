@@ -1,0 +1,282 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+header{
+    background-color: #ffff;
+    height: 80px;
+}
+/* p{
+    color: red;
+   
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato";
+} */
+.col-3{
+ float: left;
+ width: 33%;
+}
+.logo{
+    padding-top: 30px;
+}
+.header-container{
+    width: 80%;
+    margin: auto;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+    padding-right: 30px;
+}
+.menu{
+    margin-top: 32px;
+}
+.getstartedBTN{
+    background-color: #6dc77a;
+    border-radius: 4em;
+    margin-top: 20px;
+    padding: 10px 26px;
+    font-size: 17px;
+    float: right;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.top-section-main{
+    background-image: url(Friends.png);
+    height: 620px;
+}
+.top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.top-section-content h1{
+    font-size: 4em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top:0px;
+}
+.top-section-content p{
+    font-size: 1.3em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+#play-image{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 110px 0;
+    display: block;
+}
+.main-form h6{
+    font-family: sans-serif;
+    font-size: .9em;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.main-form input{
+    width: 30%;
+    height: 40px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    border: none;
+}
+.main-form button{
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    background-color: #6dc77a;
+    color: black;
+    border: none;
+}
+.feature-section{
+    padding-top: 100px;
+
+}
+.feature-section-title{
+    width: 70%;
+    text-align: center;
+    font-size: 500;
+    line-height: 1.5em;
+    margin: auto;
+
+
+}
+.feature-content .col-3 img{
+    width: 100%;
+}
+.feature-content{
+    margin: auto;
+    width: 80%;
+    padding-top: 100px;
+}
+.feature-content .col-3 p{
+  font-size: .9em;
+  letter-spacing: 1px;
+  color: black;
+  height: 100%;
+}
+.feature-content .col-3 h3{
+    text-align: center;
+}
+.feature-content .col-3 {
+    padding: 10px;
+    width: 30%;
+}
+.col-2{
+    width: 48%;
+    float: left;
+}
+
+.showcase1-container{
+     padding-top: 60px;
+     background-color: #f6f8fa;
+     width: 100%;
+     clear: both;
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.showcase1pic{
+    width: 100%;
+}
+.feature-text{
+    padding-top: 270px;
+    padding-left: 50px;
+}
+.section-title{
+    width: 70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.section-left{
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+    color: black;
+}
+.showcase2-container{
+    padding-top: 60px;
+    background-color: white;
+    width: 100%;
+    clear: both;
+}
+.call-to-action{
+    background-image: url(darkdesk.png);
+    padding-bottom: 45px;
+    background-position: center;
+}
+.action-title{
+    font-size: 4em;
+    font-weight: 300; 
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.col-1{
+    width: 80%;
+    margin: auto;
+}
+.col-1 p{
+    font-size: 1.6em;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 60px;
+}
+.signupBTN{
+    background-color: #6dc77a;
+    color: #ffff;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 30px 90px;
+    text-decoration: none;
+}
+.signupBTN:hover{
+    background-color: blue;
+}
+.signupform{
+    background-color:  #f6f8fa;
+    margin-right: 200px;
+    padding: 0px 50px 10px 50px ;
+}
+.signupform h6{
+    color: black;
+    padding-top: 15px;
+    font-size: .9em;
+    text-align: center;
+}
+.top-margin{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+input{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+
+}
+button{
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    background-color: #6dc77a;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+footer{
+    background-color: black;
+    clear: both;
+    height: 500px;
+    background-image: url(Footerbg.png);
+    background-position: center;
+}
+.social-footer{
+    width: 33%;
+    float: left;
+    height: 40%;
+}
+.social-footer:hover{
+    background-color: black;
+    opacity: .5;
+
+}
+.center{
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+.copyright{
+    color: white;
+    font-size: .9em;
+    text-align: center;
+    display: block;
+padding-top: 15px;
+}
